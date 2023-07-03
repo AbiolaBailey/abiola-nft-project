@@ -1,0 +1,478 @@
+
+/* nav */
+.navbar-nav li a:hover{
+    background: green;
+    color: white;
+}
+
+h4 p{
+    text-align: left;
+    text-indent: 80px;
+    position: relative;
+    top: 10px;
+}
+h1 p{
+    text-align: left;
+    text-indent: 45px;
+}
+.container1{
+    width: 800px; height: 200px; border: 1px dashed black;
+    position: relative;
+    top: -76px;
+    left: 70px;
+    border-radius: 10px;
+    display: block;
+}
+h5 p{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: -170px;
+}
+input[type=file]{
+    display:none ;
+}
+.button2{
+    color: white;
+    height: 30px;
+    width: 150px;
+    background-color: #085c16;
+    border-radius: 7px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 110px;
+    left: 310px;
+    cursor: pointer;
+}
+.container5{
+    width: 170px;
+    height: 170px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 60px;
+    top: 250px;
+}
+.containers{
+    width: 250px; height: 370px; border: 1px solid black;
+    position: relative;
+    top: -274px;
+    left: 910px;
+    border-radius: 10px;
+}
+.shoe{
+    border-radius: 10px;
+}
+.word{
+    text-align: left;
+    text-indent: 80px;
+    position: relative;
+    top: -450px;
+}
+.fixed{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    background : rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 75px;
+}
+.fixed{
+    position: relative;
+    top: -440px;
+}
+.fixed:hover{
+    color: #ffffff;
+    border-color: #085c16;
+    background: #085c16;
+}
+.fixed2{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    background : rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 1000px;
+}
+.fixed2{
+    position: relative;
+    top: -439px;
+    left: 100px;
+}
+.fixed2:hover{
+    color: #ffffff;
+    border-color: #085c16;
+    background: #085c16;
+}
+.fixed3{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    background : rgb(255, 255, 255);
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    left: 130px;
+}
+.fixed3{
+    position: relative;
+    top: -441px;
+}
+.fixed3:hover{
+    color: #ffffff;
+    border-color: #085c16;
+    background: #085c16;
+}
+.preview{
+    position: relative;
+    left: 830px;
+    top: -40px;
+}
+.price{
+    position: relative;
+    top: -440px;
+}
+input[type=texts]{
+    width: 790px; height: 41px; border: 1px solid black;
+    position: relative;
+    top: -440px;
+    left: 80px;
+}
+.container3{
+    width: 794px; height: 80px; border: 1px solid black;
+    position: relative;
+    top: -410px;
+    left: 80px;
+}
+.unlock{
+    position: relative;
+    top: -40px;
+    left: -115px;
+    margin: 0%;
+    padding-left: 40px;
+}
+.fa-unlock{
+    color: #085c16;
+    position: relative;
+    left: 10px;
+    top: 13px;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: relative;
+    top: -45px;
+    left: 10px;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    bottom: -30px;
+}
+.toggle__input{
+    display: none;
+}
+.toggle__fill{
+    position: relative;
+    top: -130px;
+    left: 730px;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background: #bdb8b8;
+    transition: background 0.2s;
+}
+.toggle__input:checked ~ .toggle__fill{
+    background: #085c16;
+}
+.toggle__fill::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: white;
+    box-shadow: o o 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+.toggle__input:checked ~ .toggle__fill::after{
+    transform: translate(20px);
+}
+.collection{
+    position: relative;
+    top: -475px;
+    left: -340px;
+}
+.sub_collection{
+    position: relative;
+    top: -475px;
+    left: 85px;
+}
+.select{
+    width: 790px; height: 40px; border: 1px solid black;
+    position: relative;
+    top: -490px;
+    left: 82px;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.title{
+    position: relative;
+    top: -500px;
+    left: 3px;
+}
+input[type=text2]{
+    width: 790px; height: 40px; border: 1px solid black;
+    position: relative;
+    top: -500px;
+    left: 82px;
+} 
+.Description{
+    position: relative;
+    top: -510px;
+    left: 4px;
+}   
+input[type=text3]{
+    width: 790px; height: 40px; border: 1px solid black;
+    position: relative;
+    top: -510px;
+    left: 82px;
+}   
+input[type=text4]{
+    width: 790px; height: 40px; border: 1px solid black;
+    position: relative;
+    top: -510px;
+    left: 82px;
+}  
+.create_item{
+    position: relative;
+    top: -300px;
+    left: 82px;
+}
+.fa-unlock{
+    margin: 0;
+    padding: 0;
+}
+.fa-tag{
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.fa-hourglass-half{
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+}
+.fa-users-line{
+    position: relative;
+    left: -10px;
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+}
+.search_btn{
+    position: relative;
+    left: -61px;
+    font-size: 13px;
+    cursor: pointer;
+    color: black;
+}
+.fg{
+    height: 50px;
+}
+/* .date1{
+    width: 350px;
+    height: 40px;
+    position: relative;
+    top: -514px;
+    left: 80px;
+    
+}
+.date2{
+    width: 350px;
+    height: 40px;
+    position: relative;
+    top: -514px;
+    left: 170px;
+}
+.Starting{
+    position: relative;
+    top: -470px;
+
+}
+.EXpiration{
+    position: relative;
+    top: -514px;
+    left: 440px;
+}
+.NFT{
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.Jan{
+    padding: 0;
+    margin: 0;
+    color: #9ec1cc;
+    position: relative;
+    left: -210px;
+}
+.essay{
+    position: relative;
+    left: 129px;
+}
+.essay1{
+    position: relative;
+    left: 52px;
+    top: -22px;
+}
+.container6{
+    width: 920px;
+    height: 600px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    top: -20px;
+    left: 194px;
+    font-size: 13px;
+    color: #388096;
+}
+.container6 P{
+    font-size: 1opx;
+} */
+
+/* footer */
+footer{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 3% 1%; 
+}
+.ss{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.logo{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.scc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.TM{
+    min-width: 100px;
+    color: black;
+    padding: 0 2rem;
+}
+.TM h6{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.TM h6::after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color: green;
+    position: absolute; 
+    bottom: -7px;
+    left: 0;
+    transition: 0.3s ease;
+}
+.TM h6:hover::after{
+    width: 90px;
+}
+.TM .links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.TM .links a:before{
+    content: '';
+    height: 16px;
+    width: 3px; 
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color: green;
+    transition: 0.5s ease;
+    opacity: 0;
+
+}
+.TM .links a:hover::before{
+    opacity: 1;
+}
+.TM .links a:hover{
+    transform: translateX(-8px);
+    color: green;
+}
+.scc .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scc .form input{
+    background-color: #1a1c20ff;
+    border: 0;
+    outline: none;
+    padding: 14px 14px;
+}
+.ttt{
+    padding: 14px 14px;
+    border: 0;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: green;
+    margin-top: -110px;
+    margin-right: -80px;
+    padding-left: -180px;
+    position: relative;
+    left: -70px;
+}
+.TM .social .gf i:hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+}
+.sx{
+    background-color: green;
+}

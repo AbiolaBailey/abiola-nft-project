@@ -1,0 +1,336 @@
+/* nav */
+.navbar-nav li a:hover{
+    background: green;
+    color: white;
+  }
+
+
+
+/* footer */
+footer{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 3% 1%; 
+  }
+  .ss{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  .logo{
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  .scc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  .TM{
+    min-width: 100px;
+    color: black;
+    padding: 0 2rem;
+  }
+  .TM h6{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+  .TM h6::after{
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color: green;
+    position: absolute; 
+    bottom: -7px;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  .TM h6:hover::after{
+    width: 90px;
+  }
+  .TM .links a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  .TM .links a:before{
+    content: '';
+    height: 16px;
+    width: 3px; 
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    background-color: green;
+    transition: 0.5s ease;
+    opacity: 0;
+  
+  }
+  .TM .links a:hover::before{
+    opacity: 1;
+  }
+  .TM .links a:hover{
+    transform: translateX(-8px);
+    color: green;
+  }
+  .scc .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scc .form input{
+    background-color: #1a1c20ff;
+    border: 0;
+    outline: none;
+    padding: 14px 14px;
+  }
+  .ttt{
+    padding: 14px 14px;
+    border: 0;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: green;
+    margin-top: -110px;
+    margin-right: -80px;
+    padding-left: -180px;
+    position: relative;
+    left: -70px;
+  }
+  .TM .social .gf i:hover{
+    transform: scale(1.5);
+    filter: grayscale(25);
+  }
+  .sx{
+    background-color: green;
+  }
+
+  /*--Main Container*/
+.Main_container{
+    border: 1px solid rgb(255, 255, 255);
+    width: 1000px;
+    height: 350px;
+    position: relative;
+    top: 20px;
+    left: 210px;
+} 
+/*--Container*/
+.A{
+    border: 1px solid rgb(184, 184, 184);
+    width: 210px;
+    height: 318px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.B{
+    border: 1px solid black;
+    width: 210px;
+    height: 321px;
+    position: absolute;
+    left: 239px;
+    top: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.C{
+    border: 1px solid rgb(189, 189, 189);
+    width: 210px;
+    height: 321px;
+    position: absolute;
+    left: 469px;
+    top: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.D{
+    border: 1px solid black;
+    width: 210px;
+    height: 321px;
+    position: absolute;
+    left: 699px;
+    top: 7px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*--SUB Container*/
+.Sub_Container_A{
+    border: 1px solid rgb(255, 243, 243);
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 15px;
+    top: 180px;
+    background-color: black;
+    opacity: 80%;
+}
+/*--SUB Container text for A BEGINS*/
+.sub_A_text{
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: -5px;
+}
+.sub_A_text_one{
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+}
+/*--SUB Container text for A END*/
+/*--SUB Container button for A BEGINS*/
+.Sub_Container_button_A{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 38px;
+    left: 8px;
+}
+/*--SUB Container button for A END*/
+
+.Sub_Container_B{
+    border: 1px solid rgb(255, 255, 255);
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 13px;
+    top: 185px;
+    background-color: black;
+    opacity: 80%;
+}
+/*--SUB Container button for B BEGIN*/
+.Sub_Container_button_B{
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: -2px;
+}
+/*--SUB Container button for B END*/
+
+.Sub_Container_C{
+    border: 1px solid rgb(255, 255, 255);
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 12px;
+    top: 185px;
+    background-color: black;
+    opacity: 80%;
+}
+/*--SUB Container text for C*/
+.sub_C_text{
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: -5px;
+}
+.sub_C_text_one{
+    color: white;
+    margin: 5px;
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+}
+/*--SUB Container text for C*/
+
+/*--Bottom Container*/
+.Bottom_Container_A{
+    border: none;
+    width: 210px;
+    height: 79px;
+    position: absolute;
+    top: 249px;
+}
+.Bottom_Container_A_text{
+    color: rgb(12, 12, 78);
+    position: absolute;
+    left: 51px;
+    top: -3px;
+}
+.Bottom_Container_B_text{
+    color: rgb(12, 12, 78);
+    position: absolute;
+    left: 51px;
+    top: -3px;
+}
+/*--Profile Container*/
+.profile_container_A{
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    position: absolute;
+    top: -10px;
+}
+
+.image_contain_A{
+    border-radius: 100%;
+}
+/*--Profile Container for B*/
+.profile_container_B{
+    border: none;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    position: absolute;
+    top: -2px;
+}
+.image_contain_B{
+    border-radius: 100%;
+}
+/*--Profile Container END*/
+.Bottom_Container_B{
+    border: none;
+    width: 210px;
+    height: 65px;
+    position: absolute;
+    top: 244px;
+}
+
+.Bottom_Container_C{
+    border: none;
+    width: 210px;
+    height: 65px;
+    position: absolute;
+    top: 244px;
+}
+
+.Bottom_Container_D{
+    border: none;
+    width: 210px;
+    height: 65px;
+    position: absolute;
+    top: 244px;
+}
+.contain_A{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

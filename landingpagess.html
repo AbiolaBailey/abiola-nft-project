@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Project</title>
+    <link rel="stylesheet" href="css/stylelanding.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/771d4b8a40.js" crossorigin="anonymous"></script>
+    
+    <style>
+        section{
+            padding: 60px 0;
+        }
+        body{
+            background-image: url("images/fig\ background.jpg");
+            max-width: 100%;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .button{
+            width: 150px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 0 10px;
+            border-radius: 25px;
+            border: 2px solid;
+            cursor: pointer; 
+        }
+        .card-status{
+            border-inline-end-color: blueviolet;
+            border-inline-start-color: blueviolet;
+            border-color: black;
+            
+        } 
+        .card-body{
+            background-color: black;
+            width: 280px;
+            padding:8px;
+        }
+        .cardimg-body{
+            width: 280px;
+        }
+        
+        .hold{
+            display: flex;
+        }
+        .bt{
+            margin-top: 25px;
+            margin-left: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .bt1{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3px;
+            padding-left: 20px;   
+        }
+        .card-image-top{
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 400px;
+        }
+        .cardss{
+            border-top-left-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        .cardsss{
+            margin: 0;
+        }
+        .price{
+            position: absolute;
+            color: black;
+            position: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        
+        .colt{
+            border-color: black;
+        }
+        .diaomd{
+            /* position: absolute; */
+            color: black;
+            position: 10px;
+            left: 10px;
+            padding: 15px;
+            border-radius: 0;
+            margin-top: 7px;
+        }
+    </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light mt-4">
+    <div class="container-fluid">
+        <a href="#intro" class="navbar-brand">
+        <span class="fw-bold text-danger">LOGO</span>
+        </a>
+    <!-- toggle button for mobile nav -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="wrapper">
+        <div class="search_box">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search items,collections, creators">
+        </div>
+    </div>
+    <!-- <form class="d-fluid" role="search">
+        <input class="form-control me-5" type="search" placeholder="Search items,collections, creators" aria-label="Search">
+      </form> -->
+
+    <!-- navbar links -->
+    <div class="collapse navbar-collapse justify-content-end align-center text-light" id="main-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a href="#" class="nav-link text-light">Explore</a></li>
+            <li class="nav-item">
+            <a href="#" class="nav-link text-light">Collectibles</a></li>
+            <li class="nav-item">
+            <a href="#" class="nav-link text-light">Activities</a></li>
+            <li class="nav-item">
+            <a href="#" class="nav-link text-light">Create</a></li>
+            <li class="nav-item ms-2 d-none d-md-inline">
+            <a href="#" class="btn btn-danger">Connect Wallet</a></li>
+        </ul>
+    </div>
+
+    </div>
+</nav>
+
+<!-- main -->
+<div class="container-fluid mt-5" id="intro">
+    <div class="row justify-content-center align-items-center section2">
+        <div class="col text-center text-md-start my-5 section2_left">
+            <small class="lead text-danger">Buy, Sell and Create NFT </small>
+
+            <h2>
+                <div class="display-4 text-light fw-bold">Discover, Collect, and Sell Extraordinary NFTs</div>
+            </h2>
+
+            <p class="my-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit<br> amet,  consectetur adipisicing elit. Est dolorum Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Dolorem, doloribus voluptatum quisquam at<br> ea doloremque dolor eveniet. Sapiente omnis ipsam voluptatem.</p>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-danger btn-1 text-light me-3">Connect Wallet</button>
+                <button class="btn btn-light btn-2 text-dark">Create</button>
+            </div>
+        </div>
+        
+        <div class="section2_right">
+            <div class="col col-lg-3 mb-5">
+                <div class="card card-status">
+                    <div class="card-body py-4 py-2">
+                        <h6 class="card-title text-light">Hottest Auction</h6>
+                    
+                        <div>
+                            <img src="images/garfield cat.jpg" width="100%" height="277px" class="">
+                        </div>
+                        <div class="hold"> 
+                            <div> 
+                                <span><p class="fw-bold text-light mt-3">Ledgends New Heros<br><small class="text-muted mt-2">Created and owned by</small></p></span>
+                            </div>
+                        <div>
+                            <span><button class="btn btn-danger bt"> Submit</button> </span> 
+                        </div>
+                        </div>
+                        <p class="card-text text-muted d-none d-lg-block">
+                            <i class="bi bi-star-fill"></i>@Legends</p>
+                            <div class="hold">
+                                <div><small class="text-muted">CURRENT BID<br class="text-light">0.004ETH</small></div>
+                                <div><small class="text-muted bt1">AUCTION ENDING IN<br class="text-light bt1">8h:15m:25s</small></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-3 mt-5">
+                <div class="card border-1 card-status">
+                    <div class="card-body py-4 py-2">
+                        <h6 class="card-title text-light">Hottest Auction</h6>
+                    
+                        <div>
+                            <img src="images/garfield cat.jpg" width="100%" height="277px" class="">
+                        </div>
+                        <div class="hold"> 
+                            <div> 
+                                <span><p class="fw-bold text-light mt-3">Ledgends New Heros<br><small class="text-muted mt-2">Created and owned by</small></p></span>
+                            </div>
+                        <div>
+                            <span><button class="btn btn-danger bt">Submit</button></span> 
+                        </div>
+                        </div>
+                        <p class="card-text text-muted d-none d-lg-block">
+                            <i class="bi bi-star-fill"></i>@Legends</p>                                                                 
+                         <div class="hold">
+                        <div><small class="text-muted">CURRENT BID<br class="text-light">0.004ETH</small></div>
+                        <div><small class="text-muted bt1">AUCTION ENDING IN<br class="text-light bt1">8h:15m:25s</small></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- trending collections -->
+
+
+<section id="collectibles">
+    <div class="container">
+        <div class="text-start text-light">
+            <h2 class="text-light my-5">Trending Collections</h2>
+
+            <div class="row">
+                <div class="col-md col-3">
+                    <div class="card border-0 bg-dark text-light cardss">
+                        <div class="cardimg-body">
+                        <img src="images/sky1.jpg" class="card-image-top">
+                        </div>
+                        <div class="price">
+                            <i class="bi bi-heart-fill"></i><small>Diamond HOLDER</small>
+                        </div>
+                        <div class="card-body text-start">
+                            <h5 class="lead card-title">Les Immortal's</h5>
+                            <div class="flex">
+                                <div>4.73  ETH <span class="text-muted">12/16</span></div>
+                                <div><h6 class="text-end">Bd 60 EHT</h6></div>
+                            </div>
+                            <div class="flex">
+                                <button class="btn text-light btn-danger">Place Bid</button><p class="text-end">291</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="card border-0 bg-dark text-light cardss">
+                        <div class="cardimg-body">
+                        <img src="images/sky4.jpg" class="card-image-top">
+                       </div>
+                        <div class="price">
+                            <i class="bi bi-heart-fill"></i><small></i>Diamond HOLDER</small>
+                        </div>
+                        <div class="card-body text-start">
+                            <h5 class="lead card-title">Les Immortal's</h5>
+                            <div class="flex">
+                                <div>4.73  ETH <span class="text-muted">12/16</span></div> 
+                                <div><h6 class="text-end">Bd 60 EHT</h6></div>
+                            </div>
+                            <div class="flex">
+                                <button class="btn text-light btn-danger">Place Bid</button><p class="text-end">291</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-3 cardsss">
+                    <div class="card border-0 bg-dark text-light cardss">
+                        <div class="cardimg-body">
+                        <img src="images/sky1.jpg" class="card-image-top">
+                          </div>
+                        <div class="price">
+                            <i class="bi bi-heart-fill"></i><small></i>Diamond HOLDER</small>
+                        </div>
+                        <div class="card-body text-start">
+                            <h5 class="lead card-title">Les Immortal's</h5>
+                            <div class="flex">
+                                <div>4.73  ETH <span class="text-muted">12/16</span></div>
+                                <div><h6 class="text-end">Bd 60 EHT</h6></div>
+                            </div>
+                            <div class="flex">
+                                <button class="btn text-light btn-danger">Place Bid</button><p class="text-end">291</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="card border-0 bg-dark text-light cardss">
+                        <div class="cardimg-body">
+                        <img src="images/sky4.jpg" class="card-image-top">
+                         </div>
+                        <div class="price">
+                            <i class="fa-sharp fa-solid fa-mug-hot"></i><small>Diamond HOLDER</small>
+                        </div>
+                        <div class="card-body text-start">
+                            <h5 class="lead card-title">Les Immortal's</h5>
+                            <div class="flex">
+                                4.73  ETH <span class="text-muted">12/16</span> 
+                                <h6 class="text-end">Bd 60 EHT</h6>
+                            </div>
+                            <div class="flex">
+                                <button class="btn text-light btn-danger">Place Bid</button><p class="text-end">291</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- top sellers -->
+<!-- top sellers -->
+<div class="container text-center cont">
+    <div class="text-start text-light">
+        <div class="flexb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9">
+                         <h2 class="text-light my-5">Top sellers</h2>
+                        </div>
+                    <div class="col">
+                <a href="#" class="btn btn-danger ">Explore More</a>
+
+                    </div>
+                </div>
+            </div>
+          
+
+        
+        </div>
+        <!-- <li class="nav-item ms-2 d-none d-md-inline">
+            <a href="#" class="btn btn-danger">Connect Wallet</a></li> -->
+     </div>
+</div> 
+<div class="container con-ts">
+    <div class="box">
+        <h6>1.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g">
+            <small class="tac">Sophia Valentine</small><br>0.99 ETH
+           
+          
+        </div>
+    </div>
+    <div class="box">
+        <h6>2.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>3.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>4.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>5.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>6.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>7.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>8.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>9.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>10.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>11.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+    <div class="box">
+        <h6>12.</h6>
+        <div class="text-center text-light">
+            <img src="images/nft pro.jfif" class="propic g"><small>Sophia Valentine<br>0.99 ETH</small>
+        </div>
+    </div>
+</div>
+
+
+  <!-- live auction -->
+<div class="container text-center cont my-5">
+    <div class="text-start text-light my-5">
+        <h2 class="text-light fflex">Live Auction<a href="#" class="btn btn-danger ts">Explore More</a></h2>
+    </div>
+    <div class="go">
+        <div class="box2">
+          <div class="slide-image">
+              <img src="images/nft img2.jfif" alt="">
+          </div>
+          <div class="detail-box text-light">
+              <div class="labb">
+                  <div class="lag"> 
+                      <h6 class="">
+                     <img src="images/nft pro.jfif" class="propic">
+                  </h6>
+                  </div>
+                  <div class="lag1">
+                      <b class="b"> Les Immortal's </b><br>
+                      <span>New Arrivals</span>
+                  </div>
+                  <div class="lag2">
+                      <a href="#" class="btn btn-danger bag">Place Bid</a>
+                  </div>            
+              </div>
+          </div>
+              
+          </div>
+           <div class="box2">
+            <div class="slide-image">
+                <img src="images/nft img2.jfif" alt="">
+            </div>
+            <div class="detail-box text-light">
+            
+        
+                
+                <div class="labb">
+                    <div class="lag"> 
+                        <h6 class="">
+                       <img src="images/nft pro.jfif" class="propic">
+                    </h6>
+                    </div>
+                    <div class="lag1">
+                        <b class="b"> Les Immortal's </b><br>
+                        <span>New Arrivals</span>
+                    </div>
+                    <div class="lag2">
+                        <a href="#" class="btn btn-danger round">&rarr;</a>
+                    </div>            
+                </div>
+                
+            </div>
+            </div>
+            
+    <div class="box2">
+        <div class="slide-image">
+            <img src="images/nft img2.jfif" alt="">
+        </div>
+        <div class="detail-box text-light">
+            <div class="labb">
+                <div class="lag"> 
+                    <h6 class="">
+                   <img src="images/nft pro.jfif" class="propic">
+                </h6>
+                </div>
+                <div class="lag1">
+                    <b class="b"> Les Immortal's </b><br>
+                    <span>New Arrivals</span>
+                </div>
+                <div class="lag2">
+                    <a href="#" class="btn btn-danger round"> &rarr;</a>
+                </div>            
+            </div>
+        </div>
+            
+        </div>
+    
+</div>
+</div>
+    
+  
+
+
+
+  <!-- explore navbar -->
+  <div class="container text-center cont my-5">
+    <div class="text-start text-light my-5" style="display: flex; justify-content: space-between">
+        <h2 class="text-light ffflex">Explore</h2>
+        <div>
+            <a href="#" class="btn btn-danger ts me-3">All</a>
+            <a href="#" class="btn btn-danger ts me-3">Art</a>
+            <a href="#" class="btn btn-danger ts me-3">Virtual World</a>
+            <a href="#" class="btn btn-danger ts me-3">Collectibles</a>
+            <a href="#" class="btn btn-danger ts me-3">Music</a>
+        </div>
+    </div>
+    <!-- <div class="ffflex">
+        <div class="box3">
+          <div class="slide-image">
+              <img src="images/nft img4.jfif" class="">
+          </div>
+          <div class="detail-box3 text-light">
+              <div class="type">
+                 <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+                  <span>New Arrivals</span></h6>
+              </div>
+              <div class="type">
+              <a href="#" class="btn btn-danger price">Place Bid</a></div>
+              </div>
+      </div>
+        <div class="box3">
+          <div class="slide-image">
+              <img src="images/nft img4.jfif" alt="">
+          </div>
+          <div class="detail-box3 text-light">
+              <div class="type">
+                 <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+                  <span>New Arrivals</span></h6>
+              </div>
+              <div class="type">
+              <a href="#" class="btn btn-danger price">Place Bid</a>
+            </div>
+          </div>
+        </div>  
+        <div class="box3">
+          <div class="slide-image">
+              <img src="images/nft img4.jfif" alt="">
+          </div>
+          <div class="detail-box3 text-light">
+              <div class="type">
+                 <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+                  <span>New Arrivals</span></h6>
+              </div>
+              <div class="type">
+              <a href="#" class="btn btn-danger price">Place Bid</a></div>
+          </div>
+        </div>
+        <div class="box3">
+          <div class="slide-image">
+              <img src="images/nft img4.jfif" alt="">
+          </div>
+          <div class="detail-box3 text-light">
+              <div class="type">
+                 <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+                  <span>New Arrivals</span></h6>
+              </div>
+              <div class="type">
+              <a href="#" class="btn btn-danger price">Place Bid</a></div>
+          </div>
+        </div>
+      </div>
+</div> -->
+<div class="ffflex">
+    <div class="box3">
+      <div class="slide-image">
+          <img src="images/nft img4.jfif" class="">
+      </div>
+     <!-- <div class="detail-box3 text-light">
+          <div class="type row">
+             <h6 class="col"> <img src="images/nft pro.jfif" class="propic"></h6>
+              <h6 class="col">Les Immortal's<span class="col">New Arrivals</span></h6>
+          </div>
+          </div> -->
+          <div class="detail-box3 text-light">
+            <div class="type">
+                <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+                 <span>New Arrivals</span></h6>
+             </div>
+          </div>
+          <div class="bam">
+          <a href="#" class="btn btn-danger mid">Place Bid</a>
+        </div>
+  </div>
+    <div class="box3">
+      <div class="slide-image">
+          <img src="images/nft img4.jfif" alt="">
+      </div>
+      <div class="detail-box3 text-light">
+          <div class="type">
+             <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+              <span>New Arrivals</span></h6>
+          </div>
+          
+      </div>
+      <div class="bam">
+          <a href="#" class="btn btn-danger mid">Place Bid</a>
+        </div>
+    </div>  
+    <div class="box3">
+      <div class="slide-image">
+          <img src="images/nft img4.jfif" alt="">
+      </div>
+      <div class="detail-box3 text-light">
+          <div class="type">
+             <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+              <span>New Arrivals</span></h6>
+          </div>
+      </div>
+          <div class="bam">
+          <a href="#" class="btn btn-danger mid">Place Bid</a></div>
+    </div>
+    <div class="box3">
+      <div class="slide-image">
+          <img src="images/nft img4.jfif" alt="">
+      </div>
+      <div class="detail-box3 text-light">
+          <div class="type">
+             <h6 class=""><img src="images/nft pro.jfif" class="propic">Les Immortal's
+              <span>New Arrivals</span></h6>
+          </div>
+      </div>
+          <div class="bam">
+          <a href="#" class="btn btn-danger mid">Place Bid</a></div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- creater and sell your NFTs -->
+  <div class="container my-5">
+    <div class="text-center cont-box text-light">
+      <h2><b>Create And Sell Your NFTs</b></h2>
+      <p class="lead text-danger mt-1">Add Your NFTs</p>
+    </div>
+         <div class="flex">
+    <div class="card-box4">
+        <img src="images/nft lighthouse.jpg">
+    </div>
+    <div class="boxx4 sp">
+        <div class="card-body4">
+            <div><i class="bi bi-building text-primary display-6"></i></div>
+            <h5 class="text-danger">Set Up Your Wallet</h5>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officiis aliquam hic cupiditate sequi distinctio rem impedit voluptatibus nulla repudiandae.</p>
+        </div>
+        <div class="type4">
+            <div><i class="bi bi-building text-primary display-6"></i></div>
+            <div>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officiis aliquam hic cupiditate sequi distinctio rem impedit voluptatibus nulla repudiandae.</p>
+        </div>
+        </div>
+      </div>
+      <div class="boxx4">
+        <div class="type4">
+            <div><i class="bi bi-building text-primary display-6"></i></div>
+            <h5 class="text-danger">Set Up Your Wallet</h5>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officiis aliquam hic cupiditate sequi distinctio rem impedit voluptatibus nulla repudiandae.</p>
+        </div>
+        <div class="type4">
+            <div><i class="bi bi-tags-fill text-warning display-6"></i></div>
+            <div>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, officiis aliquam hic cupiditate sequi distinctio rem impedit voluptatibus nulla repudiandae.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+<!-- live auction -->
+
+<!-- explore navbar -->
+
+<!-- creater and sell your NFTs -->
+
+<!-- footer -->
+<footer>
+<div class="container ss">
+    <div class="row">
+        <div class="col" id="Logo">
+            <h4 class="lead text-danger fw-bold logo">LOGO</h4>
+            <p class="text-light">Get The Latest UPdates</p>
+            <!-- <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Email">
+                   <span> <button class="btnn"> I'M IN</button></span> 
+                </form>
+                
+            </div> -->
+            <!-- The style I used is Base from line 438 -->
+            <form class="base" action="">
+                <input type="text" placeholder="Enter Your Email.." name="search">
+                <button type="submit">I'M IN</button>
+              </form>
+        </div>
+
+        <div class="col" id="Market Place">
+            <h3>Market Place</h3>
+            <div class="links">
+                <a href="#">Art</a>
+                <a href="#">All NFTs</a>
+                <a href="#">Music</a>
+                <a href="#">Trading Cards</a>
+        </div>
+        </div>
+        <div class="col" id="My Account">
+            <h3>My Account</h3>
+            <div class="links">
+                <a href="#">Authors</a>
+                <a href="#">Collections</a>
+                <a href="#">Author Policy</a>
+                <a href="#">Create Collection</a>
+            </div>
+        </div>
+        <div class="col" id="Resources">
+            <h3>Resources</h3>
+            <div class="links">
+                <a href="#">Help & Support</a>
+                <a href="#">Live Auctions</a>
+                <a href="#">Item Details</a>
+                <a href="#">Activity</a>
+            </div>
+        </div>
+        <div class="col" id="Company">
+            <h3>Company</h3>
+            <div class="links">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Blog</a>
+                <a href="#">Discover</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+          <div class="container">
+              <div class="row">
+                 <div class="col">
+                <small class="text-muted">&copy 2022 Company: All Rights Reserved by Company</small>
+               </div>
+               <div class="col">
+                <small class="text-muted">Terms & Conditions</small> 
+                <small class="text-muted ms-4">Privacy Policy</small>
+               </div>
+               <div class="col">
+                <div class="social ">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  
+               </div>
+            </div>
+         </div> 
+    </footer>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

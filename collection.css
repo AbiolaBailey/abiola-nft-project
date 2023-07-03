@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cont-ff{
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    /* flex-flow: wrap; */
+    margin-left: 100px;
+} 
+.col-ff{
+  /* margin-top: 100px; */
+  /* margin-right: 4px; */
+}
+.imgxx{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 270px;
+  height: 192px;
+}
+.in-if{
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 210px;
+  height: 80px;
+  margin: 0;
+  background-color: white;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 0;
+  border-color: black;
+  margin-bottom: 100px;
+  color: white;
+  display: inline-block;
+  margin-top: -60px;
+}
+.pro-img{
+width: 70px;
+height: 70px;
+border-radius: 30px;
+position: relative;
+top: -45px;
+}
+.pro-img2{
+  position: relative;
+  top: -40px;
+}
+.pro-img3{
+  position: relative;
+  top: -50px;
+}
+
+/* footer */
+footer{
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  padding: 3% 1%; 
+}
+.ss{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.logo{
+  margin-top: 30px;
+  font-size: 30px;
+}
+.scc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+.TM{
+  min-width: 100px;
+  color: black;
+  padding: 0 2rem;
+}
+.TM h6{
+  margin-bottom: 20px;
+  margin-top: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.TM h6::after{
+  content: '';
+  height: 2px;
+  width: 0px;
+  background-color: green;
+  position: absolute; 
+  bottom: -7px;
+  left: 0;
+  transition: 0.3s ease;
+}
+.TM h6:hover::after{
+  width: 90px;
+}
+.TM .links a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  position: relative;
+  transition: 0.3s ease;
+}
+.TM .links a:before{
+  content: '';
+  height: 16px;
+  width: 3px; 
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  background-color: green;
+  transition: 0.5s ease;
+  opacity: 0;
+
+}
+.TM .links a:hover::before{
+  opacity: 1;
+}
+.TM .links a:hover{
+  transform: translateX(-8px);
+  color: green;
+}
+.scc .form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scc .form input{
+  background-color: #1a1c20ff;
+  border: 0;
+  outline: none;
+  padding: 14px 14px;
+}
+.ttt{
+  padding: 14px 14px;
+  border: 0;
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: green;
+  margin-top: -110px;
+  margin-right: -80px;
+  padding-left: -180px;
+  position: relative;
+  left: -70px;
+}
+.TM .social .gf i:hover{
+  transform: scale(1.5);
+  filter: grayscale(25);
+}
+.sx{
+  background-color: green;
+}
